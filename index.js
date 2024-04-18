@@ -1,7 +1,3 @@
-
-
-// Menu
-
 document.addEventListener('DOMContentLoaded', function() {
   // open
   const burger = document.querySelectorAll('.navbar-burger');
@@ -36,6 +32,18 @@ document.addEventListener('DOMContentLoaded', function() {
           backdrop[i].addEventListener('click', function() {
               for (var j = 0; j < menu.length; j++) {
                   menu[j].classList.toggle('hidden');
+              }
+          });
+      }
+  }
+
+  const menuLinks = document.querySelectorAll('.navbar-menu a');
+
+  if (menuLinks.length) {
+      for (var i = 0; i < menuLinks.length; i++) {
+          menuLinks[i].addEventListener('click', function() {
+              for (var j = 0; j < menu.length; j++) {
+                  menu[j].classList.add('hidden');
               }
           });
       }
