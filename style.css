@@ -12,7 +12,7 @@ body {
   font-family: "Merienda", cursive;
 }
 .s1{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.073)),  url('./img/Luxury.png');
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),  url('./img/Luxury.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -71,7 +71,7 @@ animation: FadeInRight 1.5s;
 }
 @media (max-width: 484px) {
   .s1{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.164), rgba(0, 0, 0, 0.227)), url('./img/pro.png');
+    background-image: linear-gradient( rgba(0, 0, 0, 0.139), rgba(34, 33, 33, 0.87)), url('./img/pro.png');
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
